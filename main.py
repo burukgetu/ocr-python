@@ -1,9 +1,6 @@
-# main.py
-
 from fastapi import FastAPI, UploadFile, File
 import easyocr
 import cv2
-import numpy as np
 import shutil
 
 app = FastAPI()
